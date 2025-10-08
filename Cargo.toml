@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "lesson/*/", "rustacean/00000/code/hello",
+]
+
+exclude = [
+    "**/*.yaml"
+]
